@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+  }
+
+body
+{
+    width: 100vw;
+    height: 100vh;
+    background: black;
+}
+
+.cima
+{
+    display: grid;
+    background: #dcdcdc;
+    width: 100vw;
+    height: 50vh;
+    grid-template-areas: "l r" "f f";
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr;
+    
+}
+
+.Vermelho
+{
+    
+    background: #FF0000; 
+   
+   
+}
+
+.azul
+{
+    
+    background:  #00E0FF;
+   
+    
+}
+
+.Amarelo
+{
+    
+    background: #FFE600;
+    width: 100vw;
+    height: 169px;
+}
+
+.baixo
+{
+    display: grid;
+    background: #dcdcdc;
+    width: 100vw;
+    height: 50vh;
+    grid-template-areas: "l r" "f f";
+    grid-template-columns: 1fr 3fr 1fr ;
+    grid-template-rows: 1fr;
+} 
+
+.Verde1
+{
+    background: #05FF00;
+}
+
+.Azul-Escuro
+{
+   
+    background: #000AFF;
+}
+
+.Verde2
+{
+    
+    background: #42FF00;
+}
+
